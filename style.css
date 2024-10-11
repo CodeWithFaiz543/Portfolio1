@@ -1,0 +1,191 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: transparent;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 40px;
+    margin: 20px 50px;
+    backdrop-filter: blur(10px);
+
+}
+
+/* Logo styling */
+.logo a {
+    font-size: 24px;
+    color: #c073ff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Navigation links styling */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Hover effect on links */
+.nav-links a:hover {
+    background-color: #c073ff;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.center-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.center-content h1 span {
+    color: #c073ff
+}
+.left-content {
+    flex: 1;
+    text-align: left;
+}
+
+.testimonial {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 350px;
+    text-align: left;
+}
+
+.quote {
+    font-size: 50px;
+    color: #c073ff;
+}
+
+/* Right Content (Stars and Experience) */
+.right-content {
+    flex: 1;
+    text-align: right;
+}
+
+.stars {
+    font-size: 34px;
+    color: #c073ff;
+}
+
+.experience {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.experience span {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* Image Styling */
+.image-container {
+    width: 400px;
+    height: 400px;
+    flex: 1;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #c073ff70;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    margin-top: -100px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 40px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+
+}
+
+.portfolio {
+    background-color: #c073ff;
+    color: black;
+    font-weight: bold;
+    transition: transform .3s linear;
+}
+.cta-buttons .portfolio:hover i {
+    transition: transform .2s linear;
+    transform: rotate(-45deg);
+}
+.cta-buttons .hire:hover i {
+    transition: transform .2s linear;
+    transform: rotate(-45deg);
+}
+
+.hire {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
